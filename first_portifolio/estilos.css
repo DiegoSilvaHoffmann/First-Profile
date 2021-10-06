@@ -54,7 +54,7 @@ body{
     margin: 30px;
     box-shadow: 20px 20px 50px rgb(6, 65, 80);
     border-radius: 15px;  
-    background: linear-gradient(aliceblue, #b5b5b5);
+    background: linear-gradient(white, #3adebb);
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -67,10 +67,14 @@ body{
     transform: translateY(100px);
     opacity: 0;
     transition: 0.5s;
+
 }
 .tec_zone .card:hover .conteudo{
     transform: translateY(0px);
-    opacity: 1;
+    opacity: 1;    
+}
+.tec_zone .card:hover{
+    background: linear-gradient(#6162a7, rgb(216, 75, 216));
 }
 .tec_zone .card .conteudo img{
     width: 180px;
@@ -80,4 +84,3 @@ body{
 .tec_zone .card .conteudo p{
     text-align: center;
     margin-top: 5px;
-}
