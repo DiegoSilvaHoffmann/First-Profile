@@ -74,7 +74,7 @@ body{
     opacity: 1;    
 }
 .tec_zone .card:hover{
-    background: linear-gradient(#6162a7, rgb(216, 75, 216));
+    background: linear-gradient(#8889d4, rgb(224, 107, 224));
 }
 .tec_zone .card .conteudo img{
     width: 180px;
