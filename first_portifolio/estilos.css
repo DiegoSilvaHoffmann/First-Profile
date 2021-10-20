@@ -8,14 +8,11 @@ body{
     background: linear-gradient(aliceblue, #3adebb);
 }
 .inicio{
-    height: 70%;
+    height: 100%;
     display: flex;
     align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
-}
-@media screen and (min-width: 200px) and (max-width: 700px){
-    .inicio{width: 100%;}
 }
 .meu_nome{
     font-family: 'Bonheur Royale', cursive;
@@ -50,7 +47,7 @@ body{
 .tec_zone .card{
     
     width: 240px;
-    height: 380px;
+    height: 310px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgb(6, 65, 80);
     border-radius: 15px;  
@@ -84,3 +81,33 @@ body{
 .tec_zone .card .conteudo p{
     text-align: center;
     margin-top: 5px;
+}
+
+/* For small devices*/
+@media screen and (max-width: 320px) {
+    .inicio{
+        width: 90%;
+        height: 600px;
+    }
+    .meu_nome{
+        font-size: 40px;
+        margin-right: -10%;
+    }
+    .image_1{
+        width: 200px;
+        align-items: center;
+        margin-top: 12%;
+    }
+    .p_1{
+        width: 100%;
+        text-align: center;
+        padding: 8%; 
+        text-align: justify;  
+    }
+    .foto{
+        width: 300px;
+    }
+    .tec_zone .card .conteudo{
+        opacity: 1;
+        transform: none;
+    }
