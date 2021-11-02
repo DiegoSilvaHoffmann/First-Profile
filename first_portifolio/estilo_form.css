@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+form{
+    color: grey;
+    padding: 1rem;
+    font-family: 'Zen Old Mincho', serif;
+    border: #437de9;
+    border-radius: 3%;
+}

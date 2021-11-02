@@ -7,7 +7,15 @@ html:focus-within{
 body{
     background: linear-gradient(aliceblue, #3adebb);
 }
+
 .inicio{
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.SobreMi{
     height: 100%;
     display: flex;
     align-items: stretch;
@@ -26,14 +34,24 @@ body{
     padding: 8%;
 }
 .p_1{
-    width: 30%;
+    width: 40%;
+    height: auto;
     text-align: left;
-    padding: 8%;
+    padding: 3%;
+}
+i{
+    color:rgb(166, 110, 238);
+    font-size: 28px
+}
+.social i:hover{
+    transform: translateY(-.5rem);
 }
 .foto{
     width: 520px;
     height: auto;
     padding: 8%;
+    border-radius: 40%;
+    
 }
 .font_front{
     font-family: 'Teko', sans-serif;
@@ -47,17 +65,18 @@ body{
 .tec_zone .card{
     
     width: 240px;
-    height: 310px;
+    height: 300px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgb(6, 65, 80);
     border-radius: 15px;  
-    background: linear-gradient(white, #3adebb);
+    background: linear-gradient(white, #4ef0c9);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: #6b8bf3;
     border-left: #6b8bf3;
+    border-bottom: #00227b;
 }
 .tec_zone .card .conteudo{
     padding: 10px;
@@ -71,7 +90,7 @@ body{
     opacity: 1;    
 }
 .tec_zone .card:hover{
-    background: linear-gradient(#8889d4, rgb(224, 107, 224));
+    background: linear-gradient(#44d6f7, #5a09a5);
 }
 .tec_zone .card .conteudo img{
     width: 180px;
@@ -85,6 +104,7 @@ body{
 
 /* For small devices*/
 @media screen and (max-width: 320px) {
+   
     .inicio{
         width: 90%;
         height: 600px;
@@ -111,3 +131,8 @@ body{
         opacity: 1;
         transform: none;
     }
+}
+/* For medium device*/
+@media screen and (min-width: 767px){
+
+}
